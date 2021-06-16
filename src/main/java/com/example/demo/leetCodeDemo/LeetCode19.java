@@ -2,7 +2,7 @@ package com.example.demo.leetCodeDemo;
 
 public class LeetCode19 {
     //删除链表倒数第n个结点 假设需要删除leetcode4 n=3：
-    public ListNode removeNthFromEnd(ListNode head,int n){
+    public static ListNode removeNthFromEnd(ListNode head,int n){
         //首先预设一个结点
         ListNode pre = new ListNode(0);
         //将该节点的后续放置为需要删除的结点
