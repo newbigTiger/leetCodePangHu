@@ -2,7 +2,7 @@ package com.example.demo.leetCodeDemo;
 
 public class ListNodeDemo {
     public static void main(String[] args) {
-        toStringListNode(LeetCode19.removeNthFromEnd(productionListNode(),1));
+        toStringListNode(LeetCode24.Solution.swapPairs(productionListNode()));
     }
     public static ListNode productionListNode(){
         ListNode start = new ListNode(1);
